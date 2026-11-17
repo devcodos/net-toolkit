@@ -17,4 +17,4 @@ Exit code is `0` if the port is open, `1` if closed or filtered, and `2` for bad
 
 ## GPL-3.0 license
 
-MIT
+GPL
