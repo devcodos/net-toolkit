@@ -1,6 +1,6 @@
 # net-toolkit
 
-Small Bash tool for network troubleshooting. No dependencies beyond Bash and coreutils.
+Small Bash tools for network troubleshooting. No dependencies beyond Bash and coreutils.
 
 ## Tools
 
