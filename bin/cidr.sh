@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # cidr.sh - show network details for an IPv4 address in CIDR notation
-# Copyright (C) 2026 Saleh Bichara
 # Licensed under GPL-3.0. See the LICENSE file in the repo root.
 set -euo pipefail
 

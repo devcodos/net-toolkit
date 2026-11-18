@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # portcheck.sh - check whether a TCP port is open on a host
-# Copyright (C) 2026 Saleh Bichara
 # Licensed under GPL-3.0. See the LICENSE file in the repo root.
 set -euo pipefail
 
@@ -22,6 +21,7 @@ fi
 
 # Try a TCP connection; host and port are passed as arguments
 # so odd input can't inject commands.
+# shellcheck disable=SC2016
 if timeout "$wait_time" bash -c 'exec 3<>/dev/tcp/"$0"/"$1"' "$host" "$port" 2>/dev/null; then
     echo "OPEN    $host:$port"
 else
