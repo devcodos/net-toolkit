@@ -19,7 +19,7 @@ Small Bash tools for network troubleshooting. No dependencies beyond Bash and co
     ./bin/dnscheck.sh github.com 1.1.1.1
     ./bin/httpcheck.sh https://github.com 30
 
-Exit codes (all tools): `0` on success, `1` if a port is closed or filtered (`portcheck.sh`) or no DNS records are found (`dnscheck.sh`), and `2` for bad input, so they work inside other scripts.
+Exit codes (all tools): `0` on success, `1` if a check fails (closed port, no DNS records, HTTP error, failed request, or certificate expiring), and `2` for bad input, so they work inside other scripts.
 
 ## License
 
