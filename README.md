@@ -1,5 +1,7 @@
 # net-toolkit
 
+![ShellCheck](https://github.com/devcodos/net-toolkit/actions/workflows/shellcheck.yml/badge.svg)
+
 Small Bash tools for network troubleshooting. No dependencies beyond Bash and coreutils.
 
 ## Tools
