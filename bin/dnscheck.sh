@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # dnscheck.sh - look up common DNS record types for a domain
+# Copyright (C) 2026 devcodos (https://github.com/devcodos)
 # Licensed under GPL-3.0. See the LICENSE file in the repo root.
 set -euo pipefail
 
