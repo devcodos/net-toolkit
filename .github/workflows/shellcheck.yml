@@ -10,4 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Lint shell scripts
-        run: shellcheck --severity=warning bin/*.sh
+        run: shellcheck --severity=warning bin/*.sh tests/*.sh
+      - name: Install dig
+        run: sudo apt-get update && sudo apt-get install -y dnsutils
+      - name: Run smoke tests
+        run: bash tests/smoke.sh
